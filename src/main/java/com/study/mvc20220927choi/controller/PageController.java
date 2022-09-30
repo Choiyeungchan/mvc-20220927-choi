@@ -14,6 +14,7 @@ import java.sql.SQLOutput;
 @Controller
 public class PageController {
     //crud
+    //c : create    r :     u : put     d : delete
 
     @GetMapping("/test1")   //페이지주소
     public String test1(Model model) {
